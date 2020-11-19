@@ -1,5 +1,7 @@
-import logo from './public/logo.svg';
+import logo from './logo.svg';
 import './App.css';
+
+import GitHubCard from './components/GitHubCard/GitHubCard';
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
           React Workbench
         </p>
       </header>
+
+      <GitHubCard />
+
     </div>
   );
 }
