@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-color: rgba(97, 218, 251, 0.2);
 }
 
 .App-logo {
@@ -45,3 +44,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: rgba(97, 218, 251, 0.2);
+}
+
+.Navigation {
+  font-size: calc(10px + 1vmin);
+}
+
+.Navigation > ul {
+  right: 4vmin; 
+  top: 4vmin;
+  display: flex;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavigationLink {
+  color: #61dafb;
+  margin: 1vmin;
+  text-decoration: none;
+}
+
+

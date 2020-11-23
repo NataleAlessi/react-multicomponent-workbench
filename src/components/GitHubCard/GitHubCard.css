@@ -1,0 +1,14 @@
+.GitHubCard {
+	width: 30vmin;
+	height: 50vmin;
+	border: 2px solid #282c34;
+	background-color: rgba(97, 218, 251, 0.6);
+	border-radius: 2vmin;
+}
+
+.CardAvatar {
+	width: 20vmin;
+	height: 20vmin;
+	border: 2px solid #282c34;
+	border-radius: 2vmin;
+}

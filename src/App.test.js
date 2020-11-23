@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from "./App";
+import { Link } from 'react-router-dom';
+import { shallow } from "enzyme";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it("renders without crashing", () => {
+  shallow(<App />);
+});
+
+it("renders navLinks", () => {
+  const wrapper = shallow(<App />);
+  const navLink = <Link className='NavigationLink' to='/githubcard'>GitHubCard</Link>;
+  expect(wrapper.contains(navLink)).toEqual(true);
 });

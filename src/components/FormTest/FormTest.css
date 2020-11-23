@@ -1,0 +1,36 @@
+.Fieldset {
+	margin-top: 100px;
+	border-radius: 100vmin;
+	border: solid red 1vmin;
+	background-color: crimson;
+	z-index: -1;
+}
+
+.Picciol {
+	width: 4vmin;
+	height: 12vmin;
+	border: 3px solid darkred;
+	background-color: brown;
+	border-radius: 1vmin;
+	position: absolute;
+	left: 48.3%;
+}
+
+.Message {
+  font-size: calc(10px + 1vmin);
+  background-color: khaki;
+  border: darkorange solid 0.5vmin;
+  border-radius: 1.5vmin;
+  position: absolute;
+  z-index: 10;
+  top: 25vmin;
+  left: 75vmin;
+  color: darkorange;
+}
+
+.InputField {
+	background-color: khaki;
+	color: darkorange;
+	border-radius: 1vmin;
+	border: none;
+}
