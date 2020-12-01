@@ -14,9 +14,9 @@ const Counter = () => {
 	return (
  		<div className="Counter">
 			<h1>{count}</h1>
-			<Button value={1} onClickFunc={setCountFunc} />
-			<Button value={10} onClickFunc={setCountFunc} />
-			<Button value={101} onClickFunc={setCountFunc} />
+			<Button className='CounterButton' value={1} onClickFunc={setCountFunc} />
+			<Button className='CounterButton' value={10} onClickFunc={setCountFunc} />
+			<Button className='CounterButton' value={101} onClickFunc={setCountFunc} />
 		</div>
 	);
 }

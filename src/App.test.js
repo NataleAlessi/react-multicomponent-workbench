@@ -8,6 +8,6 @@ it("renders without crashing", () => {
 
 it("renders navLinks", () => {
   const wrapper = shallow(<App />);
-  const navLink = <Link className='NavigationLink' to='/githubcard'>GitHubCard</Link>;
+  const navLink = <Link className='NavigationLink' exact to='/GitHubCard'>GitHubCard</Link>;
   expect(wrapper.contains(navLink)).toEqual(true);
 });

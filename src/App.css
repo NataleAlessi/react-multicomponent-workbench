@@ -11,6 +11,10 @@
   top: 0;
 }
 
+.App-center-logo {
+  pointer-events: none;
+}
+
 .App-badge{
   position: absolute;
   left: 12vmin; 
@@ -19,7 +23,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo, .App-center-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
